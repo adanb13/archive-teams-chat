@@ -14,7 +14,7 @@ driverOptions = webdriver.ChromeOptions()
 driverOptions.add_argument = {'user-data-dir':'/Users/Application/Chrome/Default'}
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=driverOptions)
 wait = ui.WebDriverWait(driver, 240)
-wait_frame = ui.WebDriverWait(driver, 25)
+wait_frame = ui.WebDriverWait(driver, 35)
 wait_button = ui.WebDriverWait(driver, 20)
 
 
@@ -24,6 +24,7 @@ def connect_page(url : str) -> None:
     try:
         wait.until(EC.element_to_be_clickable((By.XPATH,'//ul//button//*[name()="svg" and @class="app-svg icons-chat"]')))
         chat_button = driver.find_element_by_xpath('//ul//button//*[name()="svg" and @class="app-svg icons-chat"]')
+        time.sleep(2)
         me = driver.find_element_by_tag_name("profile-picture")
         me_name = me.find_element_by_tag_name("img").get_attribute("alt").replace("Profile picture of",'').replace(".",'').strip()
         print(f"Logged in as {me_name}")
