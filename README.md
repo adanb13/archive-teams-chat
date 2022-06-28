@@ -1,6 +1,6 @@
 # archive-teams-chat
 
-Archive all your chats most recent messages from Microsoft teams chat in a .txt
+Archive all your chats most recent messages from Microsoft teams chat in a .txt with proper formatting and dates (See Reuslts below for output)
 
 MAKE SURE YOU HAVE CHROME DOWNLOADED, you can download it from here: https://www.google.ca/intl/en_ca/chrome/
 
@@ -16,5 +16,11 @@ Step 4: You should see a chrome window pop-up, Log into your chats accounts (tim
 
 Step 5: You can minimize the chrome browser if desired. Keep an eye on the terminal, to make sure script is running properly. Browser will close once finished.
 
+*Note: You can ignore any "device_handle"/"handshake"/"base directory" and "passthrough" errors
 
-*Note: You can ignore any "device_handle"/"handshake" and "passthrough" errors
+# RESULTS
+
+![image](https://user-images.githubusercontent.com/83403825/176230025-5421181e-0d20-4a7a-8b27-7337dfa3eea9.png)
+
+
+
