@@ -17,4 +17,4 @@ Step 4: You should see a chrome window pop-up, Log into your chats accounts (tim
 Step 5: You can minimize the chrome browser if desired. Keep an eye on the terminal, to make sure script is running properly. Browser will close once finished.
 
 
-*Note: You can ignore any "device_handle" and "passthrough" errors
+*Note: You can ignore any "device_handle"/"handshake" and "passthrough" errors
