@@ -14,8 +14,8 @@ driverOptions = webdriver.ChromeOptions()
 driverOptions.add_argument = {'user-data-dir':'/Users/Application/Chrome/Default'}
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=driverOptions)
 wait = ui.WebDriverWait(driver, 240)
-wait_frame = ui.WebDriverWait(driver, 35)
-wait_button = ui.WebDriverWait(driver, 20)
+wait_frame = ui.WebDriverWait(driver, 25)
+wait_button = ui.WebDriverWait(driver, 15)
 
 
 
