@@ -10,7 +10,7 @@ Step 1: Copy repo to folder of choice (This is where all the chat '.txt' files w
 
 Step 2: ```run "pip install -r requirements.txt"```
 
-Step 3: Turn off a VPN if being used, Run the "main.py" file
+Step 3: Turn off a VPN if being used, Run the ```main.py``` file
 
 Step 4: You should see a chrome window pop-up, Log into your chats accounts (timeout after 240 seconds). Once fully logged in (After you click which account you would like to log in with) DO NOT TOUCH. Let the script run, it will start archiving your chats for you.
 
