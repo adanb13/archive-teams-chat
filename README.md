@@ -8,7 +8,7 @@ Note: If you are part of an orginization that requires VPN, make sure you are co
 
 Step 1: Copy repo to folder of choice (This is where all the chat '.txt' files will be created)
 
-Step 2: ```run "pip install -r requirements.txt"```
+Step 2: run ```"pip install -r requirements.txt"```
 
 Step 3: Run the ```main.py``` file
 
