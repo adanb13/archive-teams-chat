@@ -15,3 +15,6 @@ Step 3: Run the ```main.py``` file
 Step 4: You should see a chrome window pop-up, Log into your chats accounts (timeout after 240 seconds). Once fully logged in (After you click which account you would like to log in with) DO NOT TOUCH. Let the script run, it will start archiving your chats for you.
 
 Step 5: You can minimize the chrome browser if desired. Keep an eye on the terminal, to make sure script is running properly. Browser will close once finished.
+
+
+*Note: You can ignore any "device_handle" and "passthrough" errors
